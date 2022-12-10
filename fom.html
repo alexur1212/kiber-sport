@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#" class="form">
+            <div class="form-head">
+                <a class="form-back" href="index.html"><</a>
+                <h3 class="form-title"> Заявка на вступления</h3>
+            </div>
+            <div class="form-body">
+                <fieldset class="form-filset">
+                    <legend class="form-legend">Ваш никнейм в риальной жизни:)</legend>
+                    <input name="name" placeholder="Имя" type="text" class="form-input">
+                    <input name="surname" placeholder="Фамилия" type="text" class="form-input">
+                </fieldset>
+                <h4 class="gender">Ваш пол</h4>
+                <div class="form-box">
+                   <input class="form-radio" type="radio" name="gender" id="male">
+                   <label class="form-label" for="male">M</label>
+                   <input class="form-radio" type="radio" name="gender" id="famale">
+                   <label class="form-label" for="famale">Ж</label>
+                </div>
+                <div class="form-box">
+                    <input class="chek-box" type="checkbox" name="age" id="age">
+                    <label for="age">Мне есть 13 лет</label>
+                </div>
+                <div class="form-box">
+                     <label for="game">Ваша дисцеплина</label>    
+                     <select class="select-box" name="game" id="game">
+                       <option value="Standoff2">Standoff2</option>
+                       <option value="Brawl stars">Brawl stars</option>
+                       <option value="Asvhalt9">Asvhalt9</option>
+                     </select>
+                </div>
+                <textarea placeholder="Дополнительная Информация"  class="coment" name="coment"></textarea>
+                <button class="butonchik" type="submit">Отправить Заявку</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

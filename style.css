@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+background-color: #222;
+
+}
+.wrapper{
+    overflow: hidden;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header {
+    background-color: #222;
+    padding: 5px ;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    line-height:55px ;
+    z-index: 100;
+    box-shadow: 0px 5px 20px black;
+}
+.logo {
+    text-decoration: none;
+}
+.logo-img {
+}
+.logo-text {
+    color: rgb(255, 255, 255); 
+}
+.menu {
+    float: right;
+}
+.menu-item {
+    color: white;
+    text-decoration: none;
+margin:0 10px;
+display:inline-block;
+transition: 0.3s;
+}
+.menu-item:hover{
+    transform: scale(1.2);
+}
+.site-header {
+    position: relative;
+    height:82vh ;
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+}
+.header-content {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-title {
+    font-size: 46px;
+    color: #4e4e4e;
+}
+.header-sub_title {
+    color: #4e4e4e;
+    font-size: 30px;
+}
+.header-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg,#65daff,#70ffcb);
+    padding: 30px 80px;
+    display: block;
+    margin-top: 52px;
+    font-size: 24px;
+}
+.header-btn:hover{
+    background: linear-gradient(45deg,#000000,#ff0000);
+}
+
+.RobotBot{
+    color: white;
+}
+.about {
+    text-align: center;
+    padding-bottom: 100px;
+padding-top: 100px;
+}
+.about-card {
+display: inline-block;
+width: 20%;
+vertical-align: top;
+}
+.about-img {
+height: 65px;
+}
+.about-text {
+color:#68e6ec;
+}
+.games {
+}
+.container {
+}
+.games-container {
+    padding: 30px 10px;
+    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.73);
+}
+.title {
+    color:#68e6ec;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.gemes-cart {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 5px;
+}
+.games-title {
+    color:#68e6ec;
+    margin-bottom: 10px;
+}
+.paloska {
+    background-color:#68e6ec;
+    height: 3px;
+    border: none;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.text {
+    color: white;
+}
+.igri {
+    width: 49%;
+}
+
+.info{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.class{
+   color: white;
+   width: 100px;
+}
+.contacts {
+}
+.cotacts-container {
+    padding: 30px 30px;
+    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.73);
+}
+.contacts-linion {
+    margin:auto ;
+    margin-bottom: 34px;
+    width: 20%;  
+}
+.contacts-box {
+    background-color: #65daff;
+padding: 30px;
+}
+.wow {
+    text-decoration: none;
+   background-color: black ;
+   color: white;
+   padding: 10px 20px;
+   float:right ;
+   display:block;
+}
+.form {
+    width: 70%;
+    background-color: #222;
+    margin: 50px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+.form-head {
+    position: relative;
+    height: 50px;
+    background-color: #65daff;
+    color: white;
+    text-align: center;
+}
+.form-back {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.form-title {
+}
+.form-body {
+    padding: 30px;
+    color: white;
+}
+.form-filset {
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.form-legend {
+}
+.form-input {
+    width: 100%;
+    background-color: transparent; 
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+.gender {
+    margin-bottom: 10px;
+}
+.form-box {
+    margin-bottom: 20px;
+}
+.form-radio {
+    
+}
+.form-label {
+    margin-right: 12px;
+}
+.chek-box {
+}
+.select-box {
+    border-radius: 10px;
+    outline: none;
+}
+.coment {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+.butonchik {
+    width: 200px;
+    height: 50px;
+    background:linear-gradient(45deg,#65daff,#70ffcb)  ;
+    margin: auto;
+    display: block;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.butonchik:hover{
+    background:linear-gradient(45deg,#00c3ff,#00ffa2)  ;
+}
+
+
+@media (max-width:700px) {
+    .gemes-cart {
+        width: 100%;
+    }
+    .igri {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width:570px) {
+    .about-card {
+        width: 40%;
+        margin-bottom: 34px;
+        }
+        .about-img {
+            height: 65px;
+            }
+}
+@media(max-width:480px){
+    .menu-item {
+        margin:0 5px;
+        font-size: 14px;
+    }
+    .logo-img {
+        width: 15px;
+    }
+    .logo-text {
+        font-size: 13px;
+    }
+    .header-btn {
+        padding: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+        display: inline-block;
+    }
+    .header-title {
+        font-size: 25px;
+    }
+    .header-sub_title {
+        font-size: 15px;
+    }
+    .form {
+        width: 100%;
+        margin: 25px auto;
+    }
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+background-color: #222;
+
+}
+.wrapper{
+    overflow: hidden;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header {
+    background-color: #222;
+    padding: 5px ;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    line-height:55px ;
+    z-index: 100;
+    box-shadow: 0px 5px 20px black;
+}
+.logo {
+    text-decoration: none;
+}
+.logo-img {
+}
+.logo-text {
+    color: white; 
+}
+.menu {
+    float: right;
+}
+.menu-item {
+    color: white;
+    text-decoration: none;
+margin:0 10px;
+display:inline-block;
+transition: 0.3s;
+}
+.menu-item:hover{
+    transform: scale(1.2);
+}
+.site-header {
+    position: relative;
+    height:82vh ;
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+}
+.header-content {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-title {
+    font-size: 46px;
+    color: #4e4e4e;
+}
+.header-sub_title {
+    color: #4e4e4e;
+    font-size: 30px;
+}
+.header-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg,#65daff,#70ffcb);
+    padding: 30px 80px;
+    display: block;
+    margin-top: 52px;
+    font-size: 24px;
+}
+.header-btn:hover{
+    background: linear-gradient(45deg,#000000,#ff0000);
+}
+
+.RobotBot{
+    color: white;
+}
+.about {
+    text-align: center;
+    padding-bottom: 100px;
+padding-top: 100px;
+}
+.about-card {
+display: inline-block;
+width: 20%;
+vertical-align: top;
+}
+.about-img {
+height: 65px;
+}
+.about-text {
+color:#68e6ec;
+}
+.games {
+}
+.container {
+}
+.games-container {
+    padding: 30px 10px;
+    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.73);
+}
+.title {
+    color:#68e6ec;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.gemes-cart {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 5px;
+}
+.games-title {
+    color:#68e6ec;
+    margin-bottom: 10px;
+}
+.paloska {
+    background-color:#68e6ec;
+    height: 3px;
+    border: none;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.text {
+    color: white;
+}
+.igri {
+    width: 49%;
+}
+
+.info{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.class{
+   color: white;
+   width: 100px;
+}
+.contacts {
+}
+.cotacts-container {
+    padding: 30px 30px;
+    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.73);
+}
+.contacts-linion {
+    margin:auto ;
+    margin-bottom: 34px;
+    width: 20%;  
+}
+.contacts-box {
+    background-color: #65daff;
+padding: 30px;
+}
+.wow {
+    text-decoration: none;
+   background-color: black ;
+   color: white;
+   padding: 10px 20px;
+   float:right ;
+   display:block;
+}
